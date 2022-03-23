@@ -143,6 +143,8 @@ footer {
     max-width: 500px;
     max-height: 500px;
     opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to {
     max-width: 100px;
@@ -156,6 +158,8 @@ footer {
     max-width: 500px;
     max-height: 500px;
     opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to {
     max-width: 100px;
