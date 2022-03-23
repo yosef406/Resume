@@ -1,1 +1,160 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section:nth-child(n + 2) {
+  padding: 3em;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 100vh;
+}
+
+section:nth-child(1) {
+  background: #203239;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 92vh;
+}
+
+section:nth-child(2n + 3) {
+  background: #eeedde;
+}
+
+header {
+  height: 8vh;
+  background: #141e27;
+  color: white;
+}
+
+.homeHeader {
+  color: white;
+  font-size: 200px;
+}
+
+footer {
+  height: 50vh;
+  background: #141e27;
+  color: white;
+}
+
+.scrollDownArrow {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  height: 50px;
+  width: 100px;
+  border-radius: 150px 150px 0 0;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.arrow {
+  -webkit-animation: arrowAnimation 3s infinite;
+          animation: arrowAnimation 3s infinite;
+}
+
+@-webkit-keyframes arrowAnimation {
+  from {
+    -webkit-transform: scale(2) translate(0, 0%);
+            transform: scale(2) translate(0, 0%);
+  }
+  50% {
+    -webkit-transform: scale(2) translate(0, 35%);
+            transform: scale(2) translate(0, 35%);
+  }
+  100% {
+    -webkit-transform: scale(2) translate(0, 0%);
+            transform: scale(2) translate(0, 0%);
+  }
+}
+
+@keyframes arrowAnimation {
+  from {
+    -webkit-transform: scale(2) translate(0, 0%);
+            transform: scale(2) translate(0, 0%);
+  }
+  50% {
+    -webkit-transform: scale(2) translate(0, 35%);
+            transform: scale(2) translate(0, 35%);
+  }
+  100% {
+    -webkit-transform: scale(2) translate(0, 0%);
+            transform: scale(2) translate(0, 0%);
+  }
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+  opacity: 0.4;
+}
+
+.bootStrapLogo {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  -webkit-transform: rotate(-15deg) translate(-50%);
+          transform: rotate(-15deg) translate(-50%);
+}
+
+.javaLogo {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  -webkit-transform: rotate(-95deg) translate(-50%);
+          transform: rotate(-95deg) translate(-50%);
+}
+
+.csharpLogo {
+  position: absolute;
+  top: 12%;
+  left: 75%;
+  -webkit-transform: rotate(-15deg) translate(-50%);
+          transform: rotate(-15deg) translate(-50%);
+}
+
+.cppLogo {
+  position: absolute;
+  top: 45%;
+  left: 78%;
+  -webkit-transform: rotate(20deg) translate(-50%);
+          transform: rotate(20deg) translate(-50%);
+}
+
+.htmlLogo {
+  position: absolute;
+  top: 72%;
+  left: 65%;
+  -webkit-transform: rotate(-60deg) translate(-50%);
+          transform: rotate(-60deg) translate(-50%);
+}
+
+.cssLogo {
+  position: absolute;
+  top: 78%;
+  left: 30%;
+  -webkit-transform: rotate(30deg) translate(-50%);
+          transform: rotate(30deg) translate(-50%);
+}
+
+.jsLogo {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  -webkit-transform: rotate(-15deg) translate(-50%);
+          transform: rotate(-15deg) translate(-50%);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,122 @@
+$primarySquash: #141e27;
+$secondarySquash: #203239;
+$backGroundColor1: #e0ddaa;
+$backGroundColor2: #eeedde;
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section:nth-child(n + 2) {
+  padding: 3em;
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+section:nth-child(1) {
+  background: $secondarySquash;
+  position: relative;
+  box-sizing: border-box;
+  height: 92vh;
+}
+
+section:nth-child(2n + 3) {
+  background: $backGroundColor2;
+}
+
+header {
+  height: 8vh;
+  background: $primarySquash;
+  color: white;
+}
+.homeHeader {
+  color: white;
+  font-size: 200px;
+}
+
+footer {
+  height: 50vh;
+  background: $primarySquash;
+  color: white;
+}
+
+.scrollDownArrow {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%);
+  height: 50px;
+  width: 100px;
+  border-radius: 150px 150px 0 0;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  animation: arrowAnimation 3s infinite;
+}
+
+@keyframes arrowAnimation {
+  from {
+    transform: scale(2) translate(0, 0%);
+  }
+  50% {
+    transform: scale(2) translate(0, 35%);
+  }
+  100% {
+    transform: scale(2) translate(0, 0%);
+  }
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+  opacity: 0.4;
+}
+
+.bootStrapLogo {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: rotate(-15deg) translate(-50%);
+}
+.javaLogo {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  transform: rotate(-95deg) translate(-50%);
+}
+.csharpLogo {
+  position: absolute;
+  top: 12%;
+  left: 75%;
+  transform: rotate(-15deg) translate(-50%);
+}
+.cppLogo {
+  position: absolute;
+  top: 45%;
+  left: 78%;
+  transform: rotate(20deg) translate(-50%);
+}
+.htmlLogo {
+  position: absolute;
+  top: 72%;
+  left: 65%;
+  transform: rotate(-60deg) translate(-50%);
+}
+.cssLogo {
+  position: absolute;
+  top: 78%;
+  left: 30%;
+  transform: rotate(30deg) translate(-50%);
+}
+.jsLogo {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  transform: rotate(-15deg) translate(-50%);
+}
