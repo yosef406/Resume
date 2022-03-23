@@ -2,10 +2,11 @@ $primarySquash: #141e27;
 $secondarySquash: #203239;
 $backGroundColor1: #e0ddaa;
 $backGroundColor2: #eeedde;
-
+// all start
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 section:nth-child(n + 2) {
@@ -25,26 +26,50 @@ section:nth-child(1) {
 section:nth-child(2n + 3) {
   background: $backGroundColor2;
 }
+// all end
 
+// header start
 header {
   height: 8vh;
   background: $primarySquash;
   color: white;
 }
 
-//***********************
-
-.homeHeader {
-  font-size: 100px;
-  color: $backGroundColor2;
+.nav-link {
+  color: white;
 }
-.changingHeader {
-  font-size: 150px;
-  overflow: hidden;
+.nav-link:hover {
   color: $backGroundColor1;
 }
 
-//***********************
+.active {
+  background: $backGroundColor1 !important;
+  color: $primarySquash !important;
+}
+// header end
+
+// Home start
+.homeHeaderContainer {
+  padding-left: 20%;
+}
+.homeHeader {
+  font-size: 5rem;
+  color: $backGroundColor2;
+}
+.changingHeader {
+  font-size: 8rem;
+  color: $backGroundColor1;
+}
+
+span {
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+span.fadeAnimation {
+  opacity: 1;
+}
+
 footer {
   height: 50vh;
   background: $primarySquash;
@@ -81,10 +106,24 @@ footer {
   }
 }
 
-img {
+.homeImg {
   max-width: 100px;
   max-height: 100px;
   opacity: 0.4;
+  animation: homeImgAnimation 2s;
+}
+
+@keyframes homeImgAnimation {
+  from {
+    max-width: 500px;
+    max-height: 500px;
+    opacity: 1;
+  }
+  to {
+    max-width: 100px;
+    max-height: 100px;
+    opacity: 0.4;
+  }
 }
 
 .bootStrapLogo {
@@ -129,3 +168,4 @@ img {
   left: 40%;
   transform: rotate(-15deg) translate(-50%);
 }
+// Home end

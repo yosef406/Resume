@@ -1,6 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 section:nth-child(n + 2) {
@@ -29,15 +31,41 @@ header {
   color: white;
 }
 
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #e0ddaa;
+}
+
+.active {
+  background: #e0ddaa !important;
+  color: #141e27 !important;
+}
+
+.homeHeaderContainer {
+  padding-left: 20%;
+}
+
 .homeHeader {
-  font-size: 100px;
+  font-size: 5rem;
   color: #eeedde;
 }
 
 .changingHeader {
-  font-size: 150px;
-  overflow: hidden;
+  font-size: 8rem;
   color: #e0ddaa;
+}
+
+span {
+  opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+span.fadeAnimation {
+  opacity: 1;
 }
 
 footer {
@@ -102,10 +130,38 @@ footer {
   }
 }
 
-img {
+.homeImg {
   max-width: 100px;
   max-height: 100px;
   opacity: 0.4;
+  -webkit-animation: homeImgAnimation 2s;
+          animation: homeImgAnimation 2s;
+}
+
+@-webkit-keyframes homeImgAnimation {
+  from {
+    max-width: 500px;
+    max-height: 500px;
+    opacity: 1;
+  }
+  to {
+    max-width: 100px;
+    max-height: 100px;
+    opacity: 0.4;
+  }
+}
+
+@keyframes homeImgAnimation {
+  from {
+    max-width: 500px;
+    max-height: 500px;
+    opacity: 1;
+  }
+  to {
+    max-width: 100px;
+    max-height: 100px;
+    opacity: 0.4;
+  }
 }
 
 .bootStrapLogo {
