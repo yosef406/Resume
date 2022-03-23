@@ -29,9 +29,20 @@ header {
   color: white;
 }
 
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
 .homeHeader {
-  color: white;
-  font-size: 200px;
+  font-size: 100px;
+  color: #eeedde;
+}
+
+.changingHeader {
+  font-size: 150px;
+  overflow: hidden;
+  color: #e0ddaa;
 }
 
 footer {

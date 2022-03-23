@@ -31,11 +31,25 @@ header {
   background: $primarySquash;
   color: white;
 }
-.homeHeader {
-  color: white;
-  font-size: 200px;
+
+//***********************
+
+ul {
+  padding: 0px;
+  list-style-type: none;
 }
 
+.homeHeader {
+  font-size: 100px;
+  color: $backGroundColor2;
+}
+.changingHeader {
+  font-size: 150px;
+  overflow: hidden;
+  color: $backGroundColor1;
+}
+
+//***********************
 footer {
   height: 50vh;
   background: $primarySquash;
