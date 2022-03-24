@@ -8,18 +8,19 @@ $backGroundColor2: #eeedde;
   padding: 0px;
   box-sizing: border-box;
 }
+ul {
+  list-style: none;
+}
 
 section:nth-child(n + 2) {
   padding: 3em;
-  position: relative;
-  box-sizing: border-box;
-  min-height: 100vh;
+
+  //   min-height: 100vh;
 }
 
 section:nth-child(1) {
   background: $secondarySquash;
-  position: relative;
-  box-sizing: border-box;
+
   height: 92vh;
 }
 
@@ -61,12 +62,12 @@ header {
   color: $backGroundColor1;
 }
 
-span {
+.wordAnimatedFade {
   opacity: 0;
   transition: all 0.4s ease;
 }
 
-span.fadeAnimation {
+.wordAnimatedFade.fadeAnimation {
   opacity: 1;
 }
 
@@ -111,6 +112,10 @@ footer {
   max-height: 100px;
   opacity: 0.4;
   animation: homeImgAnimation 2s;
+}
+
+.homeImg:hover {
+  opacity: 1;
 }
 
 @keyframes homeImgAnimation {
@@ -170,3 +175,75 @@ footer {
   transform: rotate(-15deg) translate(-50%);
 }
 // Home end
+
+// Profile start
+.profileImg {
+  width: 100%;
+  max-width: 240px;
+  max-height: 240px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 3rem;
+}
+
+#Profile h1 {
+  text-align: center;
+}
+#Profile p.lead {
+  text-align: center;
+  font-size: 21px;
+}
+// Profile end
+
+// Experience start
+#Experience h1,
+#Education h1,
+#Projects h1,
+#Abilities h1,
+#Contact h1 {
+  text-align: center;
+}
+
+.ability-title {
+  display: inline-block;
+  width: 60%;
+}
+.ability-score {
+  float: right;
+}
+.filled {
+  color: $secondarySquash;
+}
+.unfilled {
+  color: grey;
+}
+
+#Contact li {
+  transform: scale(1.5);
+  margin: 30px;
+  color: white;
+  padding-left: 100px;
+}
+.iconStyling {
+  font-size: 20px;
+  margin: 10px;
+}
+a:link {
+  color: $backGroundColor2;
+}
+
+/* visited link */
+a:visited {
+  color: $backGroundColor2;
+}
+
+/* mouse over link */
+a:hover {
+  color: $backGroundColor1;
+}
+
+/* selected link */
+a:active {
+  color: $backGroundColor1;
+}

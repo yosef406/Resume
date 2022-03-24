@@ -4,7 +4,7 @@ const strHomeAnimatedText = homeAnimatedText.textContent;
 const splitHomeAnimatedText = strHomeAnimatedText.split("");
 homeAnimatedText.textContent = "";
 for (let i = 0; i < splitHomeAnimatedText.length; i++) {
-    homeAnimatedText.innerHTML += "<span>" + splitHomeAnimatedText[i] + "</span>";
+    homeAnimatedText.innerHTML += '<span class="wordAnimatedFade">' + splitHomeAnimatedText[i] + '</span>';
 }
 
 var charIndex = 0;
