@@ -8,7 +8,7 @@ all the files were created by me including the animations.
 
 ## Usage
 
-to see the website please visit this [link](https://fullstack-alfanar.github.io/yosef-a-resume/)
+to see the website please visit this [link](https://fullstack-alfanar.github.io/yosef-awad/)
 
 ## Files
 
