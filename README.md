@@ -1,14 +1,26 @@
-# Resume Home Work
+# Yosef Awad - main Branch
 
-This is a home work assignment for the FullStack curse.
-I am to publish a git repository to GitHub
-The project is published as a website page using the github pages program.
-some animations were added using javascript, it was inspired from some online resources like google.
-all the files were created by me including the animations.
+## Description
+
+This Branch is made to be the first branch you see when visiting the yosef-awad repository.<br>
+Here you will find an explanation about the repository, and git to understand how it works.<br>
+
+## Explanation
+
+Each week I will upload two HomeWorks, each HomeWork will be a `new branch` named after the number of the class for example:<br>
+In class 14 I will upload a new branch named `class14`,<br>
+if the HomeWork is a page that needs to be viewed then the branch will be merged with branch main (the branch will still be uploaded) this way it will be automatically uploaded using `GitHub page` and can be viewed using the link bellow.<br>
 
 ## Usage
 
 to see the website please visit this [link](https://fullstack-alfanar.github.io/yosef-awad/)
+
+## Branches
+
+- [master](https://github.com/Fullstack-Alfanar/yosef-awad/tree/master)
+- [main](https://github.com/Fullstack-Alfanar/yosef-awad/tree/main)
+- [resume](https://github.com/Fullstack-Alfanar/yosef-awad/tree/resume)
+- [class14](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class14) <span style="color: green;">\*new</span>
 
 ## Files
 
@@ -22,5 +34,6 @@ some additional files were added like:
 
 - style.scss
 
-Author: **Yosef Awad**,
-Date: **24/3/2022**
+Author: **Yosef Awad**<br>
+Date Created: **24/3/2022**<br>
+Date Updated: **25/3/2022**
