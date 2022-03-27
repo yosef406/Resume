@@ -15,7 +15,7 @@ section:nth-child(n + 2) {
 
 section:nth-child(1) {
   background: #203239;
-  height: 92vh;
+  height: 93vh;
 }
 
 section:nth-child(2n + 3) {
@@ -23,9 +23,13 @@ section:nth-child(2n + 3) {
 }
 
 header {
-  height: 8vh;
+  height: 7vh;
   background: #141e27;
   color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .nav-link {
@@ -34,11 +38,14 @@ header {
 
 .nav-link:hover {
   color: #e0ddaa;
+  color: #141e27;
 }
 
 .active {
   background: #e0ddaa !important;
   color: #141e27 !important;
+  -webkit-transition: all 0.5 ease;
+  transition: all 0.5 ease;
 }
 
 .homeHeaderContainer {
@@ -65,7 +72,7 @@ header {
   opacity: 1;
 }
 
-footer {
+#Contact {
   height: 50vh;
   background: #141e27;
   color: white;
