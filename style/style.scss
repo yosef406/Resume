@@ -21,7 +21,7 @@ section:nth-child(n + 2) {
 section:nth-child(1) {
   background: $secondarySquash;
 
-  height: 92vh;
+  height: 93vh;
 }
 
 section:nth-child(2n + 3) {
@@ -31,9 +31,12 @@ section:nth-child(2n + 3) {
 
 // header start
 header {
-  height: 8vh;
+  height: 7vh;
   background: $primarySquash;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .nav-link {
@@ -41,11 +44,13 @@ header {
 }
 .nav-link:hover {
   color: $backGroundColor1;
+  color: $primarySquash;
 }
 
 .active {
   background: $backGroundColor1 !important;
   color: $primarySquash !important;
+  transition: all 0.5 ease;
 }
 // header end
 
@@ -71,7 +76,7 @@ header {
   opacity: 1;
 }
 
-footer {
+#Contact {
   height: 50vh;
   background: $primarySquash;
   color: white;
