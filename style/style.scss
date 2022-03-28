@@ -3,7 +3,8 @@ $secondarySquash: #203239;
 $backGroundColor1: #e0ddaa;
 $backGroundColor2: #eeedde;
 // all start
-* {
+*,
+header h3 {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
