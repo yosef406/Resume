@@ -43,7 +43,6 @@ function navCheck(entries) {
             prevAnchor.classList.remove("active");
             activeAnchor.classList.add("active");
         }
-        console.log(entry);
     });
 }
 
