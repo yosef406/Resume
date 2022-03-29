@@ -20,7 +20,8 @@ to see the website please visit this [link](https://fullstack-alfanar.github.io/
 - [master](https://github.com/Fullstack-Alfanar/yosef-awad/tree/master)
 - [main](https://github.com/Fullstack-Alfanar/yosef-awad/tree/main)
 - [resume](https://github.com/Fullstack-Alfanar/yosef-awad/tree/resume) 🔵
-- [class14](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class14) 🟢
+- [class14](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class14)
+- [class15](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class15) 🟢
 
 🔵 current main, 🟢 new
 
