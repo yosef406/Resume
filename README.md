@@ -13,22 +13,13 @@ if the HomeWork is a page that needs to be viewed then the branch will be merged
 
 ## Usage
 
-to see the website please visit this [link](https://fullstack-alfanar.github.io/yosef-awad/)
+to see the website please visit this [link](https://yosef406.github.io/Resume/)
 
 ## Branches
 
-- [master](https://github.com/Fullstack-Alfanar/yosef-awad/tree/master)
-- [main](https://github.com/Fullstack-Alfanar/yosef-awad/tree/main)
-- [resume](https://github.com/Fullstack-Alfanar/yosef-awad/tree/resume) 🔵
-- [class14](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class14)
-- [class15](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class15)
-- [class16](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class16)
-- [class17](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class17)
-- [class18](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class18)
-- [class19](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class19)
-- [class21](https://github.com/Fullstack-Alfanar/yosef-awad/tree/class21) 🟢
-
-🔵 current main, 🟢 new
+- [master](https://github.com/yosef406/Resume/tree/master)
+- [main](https://github.com/yosef406/Resume/main)
+- [resume](https://github.com/yosef406/Resume/tree/resume)
 
 ## Files
 
